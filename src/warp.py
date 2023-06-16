@@ -2,7 +2,7 @@ import random
 from typing import Any, Optional, TypedDict
 
 from aiohttp import ClientResponse, ClientSession, ClientTimeout
-from aiohttp_socks import ProxyConnector
+# from aiohttp_socks import ProxyConnector    下载到本地使用时应将此行注释
 
 
 BASE_URL: str = 'https://api.cloudflareclient.com'

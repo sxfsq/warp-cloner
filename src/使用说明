@@ -1,4 +1,6 @@
 本地运行方法
+下载到本地使用时，应将“warp.py”此行注释掉，否则运行会提示错误
+# from aiohttp_socks import ProxyConnector    
 1.下载该项目
 2.将自己的待升级密钥加入“src”文件夹下的“config”中的以下代码中的密钥所在位置
 class Settings(BaseSettings):
